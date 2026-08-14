@@ -61,12 +61,11 @@ Key Performance Indicators (KPIs):
 Essential Pages:
 •	Home
 •	About Us
-•	Our Programs
-•	Success Stories
-•	Volunteer
-•	Donate
-•	Events
-•	News 
+•	Projects
+•	Initiatives
+•	Gallery
+•	Enquiry (Get Involved)
+•	Donate 
 •	Contact Us
 
 Functionality:
