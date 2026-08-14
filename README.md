@@ -113,7 +113,6 @@ Date: 13 August 2026
 - Created the Get Involved / Enquiry page (`enquiry.html`).
 - Created the Donate page (`donate.html`).
 - Created the Contact Us page (`contact.html`).
-- Added a shared `style.css` stylesheet.
 - Added a consistent navigation menu across all pages.
 - Added working internal links between website pages.
 - Added semantic HTML elements including `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, and `<footer>`.
