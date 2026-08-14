@@ -147,7 +147,7 @@ Date: 14 August 2026
 - Created wireframes for the Contact page.
 - Used the wireframes to establish the website's layout, content hierarchy and user flow.
 
-#Version 1.3 – Testing and Refinement
+# Version 1.3 – Testing and Refinement
 Date: 14 August 2026
 
 - Tested navigation links across all pages.
