@@ -97,6 +97,76 @@ Researching and Content Sourcing
 Creating HTML Structure
 Organised Files
 
+## Change Log
+
+All notable changes made to the Hope SA Foundation website project are documented below.
+
+### Version 1.0 – Initial Website Development
+**Date:** 13 August 2026
+
+- Created the initial project structure.
+- Created the homepage (`index.html`).
+- Created the About Us page (`about.html`).
+- Created the Projects page (`projects.html`).
+- Created the Initiatives page (`initiatives.html`).
+- Created the Gallery page (`gallery.html`).
+- Created the Get Involved / Enquiry page (`enquiry.html`).
+- Created the Donate page (`donate.html`).
+- Created the Contact Us page (`contact.html`).
+- Added a shared `style.css` stylesheet.
+- Added a consistent navigation menu across all pages.
+- Added working internal links between website pages.
+- Added semantic HTML elements including `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, and `<footer>`.
+- Added researched content about Hope SA Foundation.
+- Added contact and donation information.
+- Added project and initiative information.
+- Added image placeholders and gallery content.
+- Added volunteer, sponsorship and partnership enquiry functionality.
+
+### Version 1.1 – Website Design Improvements
+**Date:** 14 August 2026
+
+- Improved spacing, headings and content hierarchy.
+- Added call-to-action buttons such as "Donate Now" and "Get Involved".
+- Improved the homepage hero section.
+- Added impact statistics to highlight Hope SA's community work.
+- Improved the presentation of projects and initiatives using cards.
+- Improved the footer and quick navigation links.
+
+### Version 1.2 – Wireframe Planning
+**Date:** 14 August 2026
+
+- Created low-fidelity wireframes for the website.
+- Created wireframes for the Home page.
+- Created wireframes for the About Us page.
+- Created wireframes for the Projects page.
+- Created wireframes for the Initiatives page.
+- Created wireframes for the Gallery page.
+- Created wireframes for the Get Involved page.
+- Created wireframes for the Donate page.
+- Created wireframes for the Contact page.
+- Used the wireframes to establish the website's layout, content hierarchy and user flow.
+
+### Version 1.3 – Testing and Refinement
+**Date:** 14 August 2026
+
+- Tested navigation links across all pages.
+- Tested forms and input fields.
+- Checked website responsiveness on different screen sizes.
+- Checked images and alternative text.
+- Improved accessibility and readability.
+- Made final design and content adjustments.
+
+### Version 2.0 – Final Submission
+**Date:** 14 August 2026
+
+- Completed all required website pages.
+- Completed website navigation.
+- Finalised website content.
+- Finalised responsive design.
+- Completed testing and quality checks.
+- Prepared the website for final submission.
+
 # References
 Help A Child South Africa, 2025. Help A Child South Africa. [online] Available at: <https://helpachild.org.za/> [Accessed 06 August 2026].
 Hope SA Foundation, 2026. Hope SA Foundation. [online] Available at: <https://hopesa.org/> [Accessed 06 August 2026].
