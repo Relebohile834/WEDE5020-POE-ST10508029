@@ -97,12 +97,12 @@ Researching and Content Sourcing
 Creating HTML Structure
 Organised Files
 
-## Change Log
+# Change Log
 
 All notable changes made to the Hope SA Foundation website project are documented below.
 
-### Version 1.0 – Initial Website Development
-**Date:** 13 August 2026
+# Version 1.0 – Initial Website Development
+Date: 13 August 2026
 
 - Created the initial project structure.
 - Created the homepage (`index.html`).
@@ -123,8 +123,8 @@ All notable changes made to the Hope SA Foundation website project are documente
 - Added image placeholders and gallery content.
 - Added volunteer, sponsorship and partnership enquiry functionality.
 
-### Version 1.1 – Website Design Improvements
-**Date:** 14 August 2026
+# Version 1.1 – Website Design Improvements
+Date: 14 August 2026
 
 - Improved spacing, headings and content hierarchy.
 - Added call-to-action buttons such as "Donate Now" and "Get Involved".
@@ -133,8 +133,8 @@ All notable changes made to the Hope SA Foundation website project are documente
 - Improved the presentation of projects and initiatives using cards.
 - Improved the footer and quick navigation links.
 
-### Version 1.2 – Wireframe Planning
-**Date:** 14 August 2026
+# Version 1.2 – Wireframe Planning
+Date: 14 August 2026
 
 - Created low-fidelity wireframes for the website.
 - Created wireframes for the Home page.
@@ -147,8 +147,8 @@ All notable changes made to the Hope SA Foundation website project are documente
 - Created wireframes for the Contact page.
 - Used the wireframes to establish the website's layout, content hierarchy and user flow.
 
-### Version 1.3 – Testing and Refinement
-**Date:** 14 August 2026
+#Version 1.3 – Testing and Refinement
+Date: 14 August 2026
 
 - Tested navigation links across all pages.
 - Tested forms and input fields.
@@ -157,8 +157,8 @@ All notable changes made to the Hope SA Foundation website project are documente
 - Improved accessibility and readability.
 - Made final design and content adjustments.
 
-### Version 2.0 – Final Submission
-**Date:** 14 August 2026
+# Version 2.0 – Final Submission
+Date: 14 August 2026
 
 - Completed all required website pages.
 - Completed website navigation.
