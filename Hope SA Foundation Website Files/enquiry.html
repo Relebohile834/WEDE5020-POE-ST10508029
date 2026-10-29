@@ -1,0 +1,287 @@
+<!doctype html>
+<!--Enquiry Page (Get Involved)-->
+<html lang="en">
+  <!--Head Section-->
+  <head>
+    <!--Metadata Section-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Page Title-->
+    <title>Get Involved | Volunteer, Sponsor or Partner | Hope SA</title>
+    <meta
+      name="description"
+      content="Volunteer, sponsor or partner with Hope SA Foundation. Send an enquiry to help extend food aid, relief and community programmes in South Africa."
+    />
+    <meta
+      name="keywords"
+      content="volunteer South Africa, become a sponsor, charity partnership, fundraising for charity, get involved Hope SA, volunteer enquiry form"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="script/script.js" defer></script>
+  </head>
+
+  <!--Body Section-->
+  <body>
+    <!--Header Section-->
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="logo">HOPE <span>SA</span></a>
+
+        <!--Navigation Section :Links to different pages of the website-->
+        <nav aria-label="Main navigation">
+          <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="projects.html">Projects</a>
+            <a href="initiatives.html">Initiatives</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="enquiry.html" class="active" aria-current="page"
+              >Get Involved</a
+            >
+            <a href="donate.html">Donate</a>
+            <a href="contact.html" class="donate">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!--Main Section-->
+    <main>
+      <!--Page Banner: Introduces the Enquiry page-->
+      <section class="page-banner">
+        <div class="container">
+          <h1>Get Involved</h1>
+          <p>
+            Volunteer your time, become a sponsor or explore partnership
+            opportunities.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <h2 class="section-title">Volunteer</h2>
+          <p>
+            Hope SA welcomes people who would like to contribute their time to
+            active projects, fundraising or community initiatives. Its current
+            website asks prospective volunteers to provide contact details,
+            their area of residence, availability and a CV.
+          </p>
+
+          <h2 class="section-title">Sponsor or Partner</h2>
+          <p>
+            Businesses and organizations can support Hope SA through
+            sponsorship, donations, resources, skills or partnership that help
+            extend community programmes.
+          </p>
+
+          <!--Enquiry Section-->
+          <h2 class="section-title">Enquiry Form</h2>
+          <form
+            id="enquiry-form"
+            name="enquiry"
+            action="/"
+            method="post"
+            enctype="multipart/form-data"
+            data-netlify="true"
+            novalidate
+          >
+            <input type="hidden" name="form-name" value="enquiry" />
+            <div>
+              <label for="name">Full Name *</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                required
+                minlength="2"
+                autocomplete="name"
+                aria-describedby="name-error"
+              />
+              <span class="error" id="name-error"></span>
+            </div>
+            <div>
+              <label for="email">Email Address *</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                autocomplete="email"
+                aria-describedby="email-error"
+              />
+              <span class="error" id="email-error"></span>
+            </div>
+            <div>
+              <label for="phone"
+                >Telephone Number (needed if you prefer phone or
+                WhatsApp)</label
+              >
+              <input
+                id="phone"
+                name="phone"
+                type="tel"
+                autocomplete="tel"
+                placeholder="e.g. 079 387 1716"
+                aria-describedby="phone-error"
+              />
+              <span class="error" id="phone-error"></span>
+            </div>
+            <fieldset class="choice-group">
+              <legend>Preferred contact method *</legend>
+              <label class="check"
+                ><input
+                  type="radio"
+                  name="contact-method"
+                  id="method-email"
+                  value="Email"
+                  checked
+                />
+                Email</label
+              >
+              <label class="check"
+                ><input
+                  type="radio"
+                  name="contact-method"
+                  id="method-phone"
+                  value="Phone call"
+                />
+                Phone call</label
+              >
+              <label class="check"
+                ><input
+                  type="radio"
+                  name="contact-method"
+                  id="method-whatsapp"
+                  value="WhatsApp"
+                />
+                WhatsApp</label
+              >
+            </fieldset>
+            <div>
+              <label for="type">I am interested in *</label>
+              <select
+                name="type"
+                id="type"
+                required
+                aria-describedby="type-error"
+              >
+                <option value="">Please select</option>
+                <option value="Volunteering">Volunteering</option>
+                <option value="Sponsorship">Sponsorship</option>
+                <option value="Partnership">Partnership</option>
+                <option value="Fundraising">Fundraising</option>
+                <option value="General enquiry">General enquiry</option>
+              </select>
+              <span class="error" id="type-error"></span>
+            </div>
+            <div>
+              <label for="availability">Availability / Area</label>
+              <input
+                id="availability"
+                name="availability"
+                type="text"
+                placeholder="e.g. weekends, Johannesburg"
+                aria-describedby="availability-error"
+              />
+              <span class="error" id="availability-error"></span>
+            </div>
+            <div>
+              <label for="message">Message *</label>
+              <textarea
+                name="message"
+                id="message"
+                required
+                aria-describedby="message-count message-error"
+              ></textarea>
+              <p class="small" id="message-count"></p>
+              <span class="error" id="message-error"></span>
+            </div>
+            <div>
+              <label for="cv">CV (volunteers, PDF or Word, max 2 MB)</label>
+              <input
+                id="cv"
+                name="cv"
+                accept=".pdf,.doc,.docx"
+                type="file"
+                aria-describedby="cv-error"
+              />
+              <span class="error" id="cv-error"></span>
+            </div>
+            <div>
+              <label class="check"
+                ><input
+                  type="checkbox"
+                  id="consent"
+                  name="consent"
+                  value="yes"
+                  required
+                  aria-describedby="consent-error"
+                />
+                I agree that Hope SA may contact me about this enquiry. *</label
+              >
+              <span class="error" id="consent-error"></span>
+              <label class="check"
+                ><input
+                  type="checkbox"
+                  id="updates"
+                  name="updates"
+                  value="yes"
+                />
+                Send me occasional updates about Hope SA's work
+                (optional)</label
+              >
+            </div>
+            <button class="button" type="submit">Submit Enquiry</button>
+            <p class="form-status" id="enquiry-status" role="status"></p>
+          </form>
+          <div
+            class="form-response"
+            id="enquiry-response"
+            role="status"
+            hidden
+          ></div>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer Section-->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <!--Organization Information-->
+        <div>
+          <h2>Hope SA Foundation</h2>
+          <p>We empower people, we feed people, we give hope to people.</p>
+          <p class="small">
+            This student project uses researched public information from Hope
+            SA's official website and is intended as a proposed website
+            redesign.
+          </p>
+        </div>
+
+        <!--Quick Links Section-->
+        <div>
+          <h3>Quick Links</h3>
+          <p><a href="projects.html">Projects</a></p>
+          <p><a href="initiatives.html">Initiatives</a></p>
+          <p><a href="enquiry.html">Volunteer</a></p>
+          <p><a href="donate.html">Donate</a></p>
+        </div>
+
+        <!--Contact Details Section-->
+        <div>
+          <h3>Contact</h3>
+          <p>079 387 1716</p>
+          <p><a href="mailto:enquiries@hopesa.org">enquiries@hopesa.org</a></p>
+          <p><a href="mailto:info@hopesa.org">info@hopesa.org</a></p>
+        </div>
+      </div>
+
+      <!--Copyright Section-->
+      <div class="container footer-bottom">
+        <p>&copy; 2026 Hope SA Foundation - Proposed student website</p>
+      </div>
+    </footer>
+  </body>
+</html>
