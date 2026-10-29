@@ -4,7 +4,7 @@
 **Student Number:** ST10508029
 **Name:** Relebohile Thato Phalatsi
 
-**Live website:** [Insert Netlify link]
+**Live website:** https://hope-sa-foundation.netlify.app
 **GitHub repository:** https://github.com/Relebohile834/WEDE5020-POE-ST10508029
 
 ---
