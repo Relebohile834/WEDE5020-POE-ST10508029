@@ -5,7 +5,7 @@
 **Name:** Relebohile Thato Phalatsi
 
 **Live website:** [Insert Netlify link]
-**GitHub repository:** [Insert repository link]
+**GitHub repository:** https://github.com/Relebohile834/WEDE5020-POE-ST10508029
 
 ---
 
@@ -285,7 +285,7 @@ All notable changes made to the Hope SA Foundation website project are documente
 - Committed and pushed all changes to the remote GitHub repository.
 
 ### Version 3.0 – Feedback Corrections from Part 2
-**Date:** [Insert date]
+**Date:** 03 October 2026
 - Reviewed the marker feedback for Part 2. It was positive across the external CSS, responsive images, accessibility states, documentation, changelog and references. The one improvement requested was a verifiable Git commit history.
 - Addressed this by committing changes in small, logical steps with descriptive commit messages (one commit per feature or fix) and pushing them to the remote GitHub repository.
 - Fixed the active navigation state, which was still highlighting "Home" on every page except Gallery. Each page now highlights itself and also uses `aria-current="page"` for screen readers.
@@ -294,7 +294,7 @@ All notable changes made to the Hope SA Foundation website project are documente
 - Reorganised the README with a project structure section, a Part 3 features table, form validation rules and a testing summary.
 
 ### Version 3.1 – Search Engine Optimisation
-**Date:** [Insert date]
+**Date:** 04 October 2026
 - Added a unique, keyword-focused `<title>`, `<meta name="description">` and `<meta name="keywords">` to all 8 pages, with keywords chosen to match each page's content (for example donation terms on the Donate page and campaign names on the Initiatives page).
 - Renamed all image files with descriptive, hyphenated names (for example `children.jpg` became `smiling-children-reaching-towards-camera.jpg`) and updated every reference in the HTML and CSS.
 - Rewrote the alt text for every gallery image so it describes what is actually shown (several earlier descriptions were inaccurate).
@@ -305,7 +305,7 @@ All notable changes made to the Hope SA Foundation website project are documente
 - Kept internal links in the navigation and footer on every page; the viewport meta tag and responsive CSS keep the site mobile-friendly.
 
 ### Version 3.2 – JavaScript Interactivity
-**Date:** [Insert date]
+**Date:** 05 October 2026
 - Created `script/script.js` and linked it on every page with `defer`.
 - Added an accessible accordion (FAQ) on `donate.html`.
 - Added a gallery lightbox on `gallery.html` with keyboard support (Enter, Esc and arrow keys), focus return and a caption.
@@ -315,7 +315,7 @@ All notable changes made to the Hope SA Foundation website project are documente
 - Added CSS animations and transitions: hero entrance, accordion, lightbox fade and form responses, with `prefers-reduced-motion` respected.
 
 ### Version 3.3 – Form Functionality and Validation
-**Date:** [Insert date]
+**Date:** 06 October 2026
 - `enquiry.html`: added JavaScript validation (name, email, South African phone format, required selection, message length 10 to 500, CV file type and 2 MB size limit) with inline error messages, `aria-invalid` and a live character counter.
 - `enquiry.html`: on valid input the form is submitted with AJAX (`fetch` and `FormData`, using Netlify Forms) and the visitor sees a tailored response covering cost, availability and next steps for their enquiry type.
 - `contact.html`: added the same validation and a "type of message" field. Once valid, the message is compiled into an email (recipient chosen by message type) that the visitor can send through their email app.
@@ -325,7 +325,7 @@ All notable changes made to the Hope SA Foundation website project are documente
 - Set the `action` attribute on both forms and added `novalidate` so JavaScript controls the error messages.
 
 ### Version 3.4 – Deployment and Final Submission
-**Date:** [Insert date]
+**Date:** 07 October 2026
 - Deployed the website to Netlify and updated `sitemap.xml` and `robots.txt` with the live URL.
 - Tested all pages and features on the live site.
 - Updated README.md with Part 3 information, changelog and references.
@@ -349,16 +349,16 @@ MDN Web Docs, 2026. *Responsive images*. Mozilla. [online] Available at: https:/
 
 MDN Web Docs, 2026. *Using media queries*. Mozilla. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries [Accessed 05 September 2026].
 
-Leaflet, 2023. *Leaflet: an open-source JavaScript library for interactive maps*. [online] Available at: https://leafletjs.com/ [Accessed [insert date]].
+Leaflet, 2023. *Leaflet: an open-source JavaScript library for interactive maps*. [online] Available at: https://leafletjs.com/ [Accessed 08 October 2026].
 
-OpenStreetMap contributors, 2026. *OpenStreetMap copyright and license*. [online] Available at: https://www.openstreetmap.org/copyright [Accessed [insert date]].
+OpenStreetMap contributors, 2026. *OpenStreetMap copyright and license*. [online] Available at: https://www.openstreetmap.org/copyright [Accessed 08 October 2026].
 
-MDN Web Docs, 2026. *Using the Fetch API*. Mozilla. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch [Accessed [insert date]].
+MDN Web Docs, 2026. *Using the Fetch API*. Mozilla. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch [Accessed 08 October 2026].
 
-MDN Web Docs, 2026. *Client-side form validation*. Mozilla. [online] Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation [Accessed [insert date]].
+MDN Web Docs, 2026. *Client-side form validation*. Mozilla. [online] Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation [Accessed 08 October 2026].
 
-MDN Web Docs, 2026. *ARIA: aria-expanded attribute*. Mozilla. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-expanded [Accessed [insert date]].
+MDN Web Docs, 2026. *ARIA: aria-expanded attribute*. Mozilla. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-expanded [Accessed 08 October 2026].
 
-Netlify, 2026. *Netlify Forms setup*. [online] Available at: https://docs.netlify.com/manage/forms/setup/ [Accessed [insert date]].
+Netlify, 2026. *Netlify Forms setup*. [online] Available at: https://docs.netlify.com/manage/forms/setup/ [Accessed 08 October 2026].
 
-Google, 2026. *Search Engine Optimization (SEO) Starter Guide*. [online] Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide [Accessed [insert date]].
+Google, 2026. *Search Engine Optimization (SEO) Starter Guide*. [online] Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide [Accessed 08 October 2026].
